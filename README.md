@@ -1,77 +1,70 @@
 # Tekkel Client
 
-**Precision. Performance. Victory.**
-
-A modern, E-Sport-oriented Minecraft Java Edition 1.21.1 PvP Client with advanced modules, performance optimizations, and professional UI design.
-
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Minecraft](https://img.shields.io/badge/minecraft-1.21.1-brightgreen)
-![Fabric](https://img.shields.io/badge/fabric-0.15.11-yellow)
-![Java](https://img.shields.io/badge/java-21-orange)
+A powerful and modular Minecraft client for Fabric, featuring:
 
 ## Features
 
-### 🎮 PvP Modules
-- **Crosshair Mod** - Customizable crosshairs with RGB, rainbow, and image import
-- **Keystrokes** - Real-time keystroke display
-- **CPS Counter** - Clicks per second counter
-- **FPS/Ping Display** - Performance monitoring
-- **Reach Display** - Attack reach indicator
-- **Combo Counter** - Multi-hit combo tracking
-- **Armor Status** - Equipment durability display
-- **Coordinates** - Real-time location display
-- **Direction HUD** - Cardinal direction indicator
-- **Hotbar/Inventory HUD** - Custom hotbar display
-- **Totem Counter** - Totem of Undying counter
-- **Attack/Shield Cooldown** - Cooldown indicators
+### Comfort Modules
+- **Toggle Sprint** - Toggle sprint mode on/off
+- **Toggle Sneak** - Toggle sneak mode on/off
+- **Zoom** - Zoom in on targets
+- **Freelook** - Free camera movement
+- **Perspective** - Toggle camera perspective
+- **Fullbright** - Illuminate dark areas
+- **Better Chat** - Improved chat experience
+- **Item Physics** - Enhanced item physics
+- **Hit Color** - Custom hit color
+- **Damage Tint** - Damage screen tint
 
-### 🛠️ Comfort Features
-- Toggle Sprint & Sneak
-- Advanced Zoom Mod
-- Freelook Mode
-- Perspective Mod
-- Fullbright
-- Better Chat
-- Item Physics
-- Damage Tint
-- Hit Color
+### Performance Modules
+- **Entity Culling** - Optimize entity rendering
+- **Dynamic FPS** - Adjust FPS based on activity
+- **Smart Rendering** - Optimize rendering
+- **Particle Optimizer** - Optimize particle rendering
+- **Chunk Optimizer** - Optimize chunk loading
+- **Memory Optimizer** - Optimize memory usage
+- **Better Clouds** - Improve cloud rendering
+- **Better Fog** - Improve fog rendering
+- **Smart Leaves** - Optimize leaf rendering
 
-### ⚡ Performance
-- Entity Culling
-- Dynamic FPS
-- Smart Rendering
-- Particle Optimizer
-- Chunk Optimizer
-- Memory Optimizer
-- Better Clouds & Fog
-- Smart Leaves
+### HUD Elements
+- **FPS Display** - Shows current frames per second
+- **Ping Display** - Shows current server ping
+- **Coordinates Display** - Shows player coordinates
+- **CPS Counter** - Shows clicks per second
+- **Keystrokes Display** - Shows active key presses
 
-### 🎨 Cosmetics
-- Custom Capes
-- Wings
-- Emotes
-- Badges
-- Nametag Customizer
-
-### 🎛️ HUD Editor
-- Drag & Drop positioning
-- Snap-to-Grid system
-- Scaling & transparency
-- Color customization
-- Profile save/load
+### API Features
+- **Discord Rich Presence** - Display gameplay on Discord
+- **Cloud Sync** - Synchronize settings across devices
+- **Config Management** - Save and load configurations
+- **Event System** - Comprehensive event bus
+- **Module System** - Extensible module framework
 
 ## Installation
 
+1. Download Fabric Loader
+2. Download Fabric API
+3. Place this mod in your mods folder
+4. Launch Minecraft with Fabric
+
+## Usage
+
+- Press `M` (default) to open the module menu
+- Right-click on modules to toggle them
+- Drag HUD elements to reposition them
+- Access settings via the config menu
+
+## Building
+
 ```bash
-git clone https://github.com/deshawnmcclain865-svg/tekkel-client.git
-cd tekkel-client
 ./gradlew build
 ```
 
 ## License
 
-MIT License
+MIT License - See LICENSE file for details
 
----
+## Author
 
-**Motto: Precision. Performance. Victory.**
+deshawnmcclain865

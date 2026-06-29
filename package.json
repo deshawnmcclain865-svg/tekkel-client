@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "name": "Tekkel Client",
+  "description": "A powerful Minecraft client with modules and HUD",
+  "authors": ["deshawnmcclain865"],
+  "repository": "https://github.com/deshawnmcclain865-svg/tekkel-client",
+  "license": "MIT",
+  "features": {
+    "comfort_modules": 10,
+    "performance_modules": 9,
+    "hud_elements": 5
+  }
+}
